@@ -7,7 +7,10 @@
 }
 
 nav {
-    
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 2%;
 }
 
 nav a {
@@ -17,4 +20,18 @@ nav a {
     font-size: 1.5em;
     text-transform: uppercase;
     color: #412645;
+    padding: 1%;
+}
+
+nav a:hover {
+    color: #F04241;
+}
+nav #tickets {
+    background-color: #F04241;
+    color: #F2F5F0;
+}
+
+nav #tickets:hover {
+    background-color: #F2F5F0;
+    color: #F04241;
 }
