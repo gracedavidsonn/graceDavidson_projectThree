@@ -5,3 +5,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #F2F5F0;
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#logo {
+    width: 50%;
+    padding: 2%;
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Readex Pro', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #412645;
+    padding: 2% 3% 2% 3%;
+}
+
+nav a:hover {
+    color: #F04241;
+}
+nav #tickets {
+    background-color: #F04241;
+    color: #F2F5F0;
+}
+
+nav #tickets:hover {
+    background-color: #F2F5F0;
+    color: #F04241;
+}

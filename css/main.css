@@ -6,27 +6,49 @@
     box-sizing: border-box;
 }
 
-nav {
+body {
+    background-color: #412645;
+    margin: 5%;
+}
+
+header {
     display:flex;
     flex-direction: row;
+    width: 100%;
+}
+
+#logo {
+    width: 40%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: end;
-    padding: 2%;
+    align-items: center;
+    width: 60%;
+    margin: 2%;
 }
 
 nav a {
     text-decoration: none;
     font-family: 'Readex Pro', Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1.25em;
     text-transform: uppercase;
-    color: #412645;
-    padding: 1%;
+    text-align: center;
+    color: #D9BAD7;
+    padding: 2%;
+    margin-right: 2%;
 }
 
 nav a:hover {
-    color: #F04241;
+    color: #F2F5F0;
 }
 nav #tickets {
+    display: flex;
+    flex-wrap: nowrap;
     background-color: #F04241;
     color: #F2F5F0;
 }
