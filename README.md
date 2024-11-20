@@ -10,8 +10,11 @@ Our Choice Festival is a place for people of all ages, genders, ethnicities, and
 # Technical Overview
 
 Adobe Illustrator was used to create OCF logo.
+
 Adobe Photoshop was used to create imagery.
+
 Adobe XD was used to create wireframes.
+
 Visual Studio Code was used to create HTML and CSS.
 
 Wireframes: 
