@@ -20,8 +20,6 @@ Visual Studio Code was used to create HTML and CSS.
 #### Wireframes
 https://xd.adobe.com/view/82c0de62-3e6f-4f1c-a596-738c41938ba5-d793/?fullscreen 
 
-![Our Choice Festival Wireframes](img/wireframes.png | width=300px)
-
 #### Images
 
 “Unite the Right 2 Counter Protests 8.12.18” by Melany Rochester
