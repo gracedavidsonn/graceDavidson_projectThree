@@ -27,13 +27,16 @@ https://unsplash.com/photos/woman-standing-holding-umbrella-and-white-megaphone-
 
 #### Fonts
 
-Londrina Solid by Marcelo Magalhães: 
+Londrina Solid by Marcelo Magalhães
+ 
 https://fonts.google.com/specimen/Londrina+Solid 
 
-Readex Pro by Thomas Jockin, et. al: 
+Readex Pro by Thomas Jockin, et. al
+
 https://fonts.google.com/specimen/Readex+Pro
 
-Libre Franklin by Impallari Type: 
+Libre Franklin by Impallari Type
+
 https://fonts.google.com/specimen/Libre+Franklin 
 
 ## Acknowledgements
