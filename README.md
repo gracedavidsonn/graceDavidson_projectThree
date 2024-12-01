@@ -20,12 +20,6 @@ Visual Studio Code was used to create HTML and CSS.
 #### Wireframes
 https://xd.adobe.com/view/82c0de62-3e6f-4f1c-a596-738c41938ba5-d793/?fullscreen 
 
-#### Images
-
-“Unite the Right 2 Counter Protests 8.12.18” by Melany Rochester
-
-* https://unsplash.com/photos/woman-standing-holding-umbrella-and-white-megaphone-during-daytime-HVx9MHpaQI0 
-
 #### Fonts
 
 Londrina Solid by Marcelo Magalhães
@@ -41,3 +35,11 @@ Libre Franklin by Impallari Type
 * https://fonts.google.com/specimen/Libre+Franklin 
 
 ## Acknowledgements
+
+#### Images
+
+“Unite the Right 2 Counter Protests 8.12.18” by Melany Rochester
+
+* https://unsplash.com/photos/woman-standing-holding-umbrella-and-white-megaphone-during-daytime-HVx9MHpaQI0 
+
+#### Mockups
