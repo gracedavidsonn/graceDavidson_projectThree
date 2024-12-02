@@ -43,3 +43,15 @@ Libre Franklin by Impallari Type
 * https://unsplash.com/photos/woman-standing-holding-umbrella-and-white-megaphone-during-daytime-HVx9MHpaQI0 
 
 #### Mockups
+
+Canvas Tote Bag:
+* https://mrmockup.com/canvas-tote-bag-mockup/
+
+T-Shirt:
+* https://mrmockup.com/t-shirt-mockup-psd/
+
+Water Bottle:
+* https://www.sachanati.com/mockups/free-water-bottle-mockup
+
+Wristband:
+* https://unblast.com/download/19956/ 
