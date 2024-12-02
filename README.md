@@ -41,6 +41,8 @@ Libre Franklin by Impallari Type
 #### Merch Mockup
 ![alt](img/mockupArt.png)
 ![alt](img/mockup.png)
+<img src="img/mockupArt.png" width="300px">
+<img src="img/mockup.png" width="300px">
 
 ## Acknowledgements
 
