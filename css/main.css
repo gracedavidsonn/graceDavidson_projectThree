@@ -9,13 +9,19 @@
 body {
     background-color: #412645;
 
-    margin: 5%;
+
+    min-height: 100dvh;
+    max-width: 100%;
+    position: relative;
 }
+
+/* HEADER STYLING */
 
 header {
     display:flex;
     flex-direction: row;
     width: 100%;
+    padding: 5%;
 }
 
 #logo {
@@ -58,3 +64,207 @@ nav #tickets:hover {
     background-color: #F2F5F0;
     color: #F04241;
 }
+
+/* LANDING PAGE */
+
+#landingPage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding: 5%;
+}
+
+#landingPageText {
+    width: 40%;
+    align-self: flex-start;
+    position: relative;
+    z-index: 98;
+}
+
+#landingPageText h1 {
+    font-size: 7em;
+    line-height: 0.95em;
+    font-weight: 900;
+    font-family: 'Londrina Solid', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color:#F2F5F0;
+    text-shadow: 7px 7px #F04241;
+
+    padding: 2% 0% 4% 0%;
+}
+
+#landingPageText h2 {
+    font-family: 'Readex Pro', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D9BAD7;
+
+    padding: 1%;
+}
+
+#landingPageImageOne {
+    width: 30%;
+    align-self: flex-end;
+    position: relative;
+    z-index: 97;
+}
+
+#landingPageImageOne img {
+    width: 70%;
+    position: relative;
+    z-index: 96;
+}
+
+#landingPageImageTwo {
+    width: 30%;
+    align-self: flex-end;
+}
+
+#landingPageImageTwo img {
+    width: 100%;
+}
+
+#about {
+    padding: 0% 25% 5% 25%;
+}
+
+#about p {
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 300;
+    text-align: justify;
+    color: #412645;
+    background-color: #F2F5F0;
+    padding: 5%;
+}
+
+/* ORGANIZATIONS */
+
+#organizations {
+    background-color: #F2F5F0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    margin: 0%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#organizations h2 {
+    font-size: 4.5em;
+    line-height: 0.95em;
+    font-weight: 900;
+    font-family: 'Londrina Solid', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color:#412645;
+    padding-bottom: 2%;
+}
+
+#orgLogos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#orgLogos a {
+    display: flex;
+    width: 20%;
+    padding: 1% 2% 1% 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: #F04241;
+    box-shadow: 10px 10px #412645;
+}
+
+#orgLogos a:hover {
+    background-color: #412645;
+    box-shadow: 10px 10px #F04241;
+}
+
+#orgLogos img {
+    width: 100%;
+    align-self: center;
+}
+
+/* PAGE LINKS */
+
+#pageLinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+#pageLinks a {
+    display: flex;
+    width: 33.33%;
+    text-decoration: none;
+}
+
+#pageLinks a img {
+    width: 100%;
+    z-index: 99;
+}
+
+#pageLinks a img:hover {
+    opacity: 0;
+}
+
+#events {
+    background-color: #D9BAD7;
+}
+
+#events h2 {
+    left: 19%;
+}
+
+#tickets {
+    background-color: #F04241;
+}
+
+#tickets h2 {
+    left: 51%;
+}
+
+#merch {
+    background-color: #9e005e;
+}
+
+#merch h2 {
+    left: 87%;
+}
+
+#pageLinks a h2 {
+    display: flex;
+    align-self: flex-end;
+    padding-bottom: 1%;
+    z-index: 100;
+    position: absolute;
+
+
+    font-size: 4em;
+    line-height: 0.95em;
+    font-weight: 900;
+    font-family: 'Londrina Solid', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: right;
+    text-decoration: none;
+    color:#F2F5F0;
+}
+
