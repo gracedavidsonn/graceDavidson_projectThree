@@ -8,7 +8,10 @@
 
 body {
     background-color: #F2F5F0;
-    margin: 5%;
+
+    min-height: 100dvh;
+    max-width: 100%;
+    position: relative;
 }
 
 /* HEADER STYLING */
@@ -17,6 +20,7 @@ header {
     display:flex;
     flex-direction: row;
     width: 100%;
+    padding: 5%;
 }
 
 #logo {
@@ -57,4 +61,71 @@ nav #tickets {
 
 nav #tickets:hover {
     background-color: #F04241;
+}
+
+/* HEADING STYLING */
+
+#heading {
+    padding: 2% 5% 0% 5%;
+}
+
+#heading h1 {
+    font-size: 4.5em;
+    line-height: 0.95em;
+    font-weight: 900;
+    font-family: 'Londrina Solid', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    color:#412645;
+}
+
+/* MERCH GRID STYLING */
+
+#merchGrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5% 5% 5% 0%;
+    width: 100%;
+
+}
+
+/* MERCH ITEM STYLING */
+
+.merchItem {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    padding-right: 4%;
+
+}
+
+.merchItem img {
+    width: 100%;
+    box-shadow: 10px 10px #412645;
+}
+
+.merchItem img:hover {
+    box-shadow: 10px 10px #F04241;
+}
+
+.merchItem h2 {
+    font-family: 'Readex Pro', Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #412645;
+
+    padding-top: 8%;
+}
+
+.merchItem p {
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: #412645;
+
+    padding-top: 2%;
 }
