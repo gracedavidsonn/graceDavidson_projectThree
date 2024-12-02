@@ -184,6 +184,8 @@ nav #tickets:hover {
     flex-direction: row;
 }
 
+/* SATURDAY */
+
 #saturday {
     display: flex;
     flex-direction: row;
@@ -276,4 +278,90 @@ nav #tickets:hover {
 
 #saturday a:hover {
     color: #F04241;
+}
+
+/* SUNDAY */
+
+#sunday {
+    display: flex;
+    flex-direction: row;
+    padding: 0% 5% 5% 5%;
+
+    background-color: #D9BAD7;
+}
+
+#sundayText {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    padding-right: 3%;
+
+}
+
+#sundayPhoto {
+    width: 40%;
+    align-self: flex-end;
+}
+
+#sundayPhoto img {
+    width: 100%;
+}
+
+#sunday h1 {
+    font-size: 4.5em;
+    line-height: 0.95em;
+    font-weight: 900;
+    font-family: 'Londrina Solid', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    color:#F2F5F0;
+    background-color: #412645;
+    padding: 1.5%;
+    width: 230px;
+}
+
+#sunday h2 {
+    font-family: 'Readex Pro', Arial, Helvetica, sans-serif;
+    font-size: 2.75em;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-align: left;
+    color: #412645;
+
+    padding-top: 3%;
+    padding-left: 12%;
+}
+
+#sunday h3 {
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #412645;
+
+    padding-bottom: 2%;
+    padding-left: 12%;
+}
+
+#sunday h4 {
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #9E005E;
+
+    padding-left: 12%;
+}
+
+#sunday p {
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #412645;
+    text-align: justify;
+
+
+    padding-left: 13%;
 }
