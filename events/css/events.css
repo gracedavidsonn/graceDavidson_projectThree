@@ -97,11 +97,28 @@ nav #tickets:hover {
 
 #friday {
     display: flex;
-    flex-direction: column;
-    padding: 5%;
+    flex-direction: row;
+    padding: 0% 5% 5% 5%;
 
     background-color: #F04241;
+}
 
+#fridayText {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+    padding-right: 3%;
+
+}
+
+#fridayPhoto {
+    width: 40%;
+    align-self: flex-end;
+}
+
+#fridayPhoto img {
+    width: 100%;
 }
 
 #friday h1 {
@@ -114,6 +131,149 @@ nav #tickets:hover {
     color:#412645;
     background-color: #F2F5F0;
     padding: 1.5%;
-    width: 250px;
+    width: 215px;
+}
 
+#friday h2 {
+    font-family: 'Readex Pro', Arial, Helvetica, sans-serif;
+    font-size: 2.75em;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-align: left;
+    color: #F2F5F0;
+
+    padding-top: 3%;
+    padding-left: 12%;
+}
+
+#friday h3 {
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #F2F5F0;
+
+    padding-bottom: 2%;
+    padding-left: 12%;
+}
+
+#friday h4 {
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #D9BAD7;
+
+    padding-left: 12%;
+}
+
+#friday p {
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #F2F5F0;
+    text-align: justify;
+
+
+    padding-left: 13%;
+}
+
+.eventRow {
+    display: flex;
+    flex-direction: row;
+}
+
+#saturday {
+    display: flex;
+    flex-direction: row;
+    padding: 0% 5% 5% 0%;
+
+    background-color: #412645;
+}
+
+#saturdayText {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#saturdayPhoto {
+    display: flex;
+    align-self: flex-end;
+    width: 40%;
+    padding: 5% 5% 0% 5%;
+}
+
+#saturdayPhoto img {
+    width: 100%;
+
+}
+
+#saturday h1 {
+    font-size: 4.5em;
+    line-height: 0.95em;
+    font-weight: 900;
+    font-family: 'Londrina Solid', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    color:#F2F5F0;
+    background-color: #F04241;
+    padding: 1.5%;
+    width: 290px;
+
+    align-self: flex-end;
+}
+
+#saturday h2 {
+    font-family: 'Readex Pro', Arial, Helvetica, sans-serif;
+    font-size: 2.75em;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-align: left;
+    color: #F2F5F0;
+
+    padding-top: 3%;
+
+}
+
+#saturday h3 {
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #F2F5F0;
+
+    padding-bottom: 2%;
+    padding-right: 12%;
+}
+
+#saturday h4 {
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #F04241;
+    padding-right: 12%;
+}
+
+#saturday p {
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #F2F5F0;
+    text-align: justify;
+
+    padding-right: 12%;
+}
+
+#saturday a {
+    color: #F2F5F0;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+#saturday a:hover {
+    color: #F04241;
 }
