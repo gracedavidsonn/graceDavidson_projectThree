@@ -39,12 +39,6 @@ Libre Franklin by Impallari Type
 
 ## Acknowledgements
 
-#### Images
-
-“Unite the Right 2 Counter Protests 8.12.18” by Melany Rochester
-
-* https://unsplash.com/photos/woman-standing-holding-umbrella-and-white-megaphone-during-daytime-HVx9MHpaQI0 
-
 #### Mockups
 
 Canvas Tote Bag:
