@@ -39,8 +39,8 @@ Libre Franklin by Impallari Type
 * https://fonts.google.com/specimen/Libre+Franklin 
 
 #### Merch Mockup
-<img src="img/mockupArt.png" height="500px">
-<img src="img/mockup.png" height="500px">
+<img src="img/mockupArt.png" height="400px">
+<img src="img/mockup.png" height="400px">
 
 ## Acknowledgements
 
