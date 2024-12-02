@@ -56,3 +56,8 @@ Water Bottle:
 
 Wristband:
 * https://unblast.com/download/19956/ 
+
+#### HTML/CSS 
+
+CSS Box shadow:
+* https://www.w3schools.com/cssref/css3_pr_box-shadow.php
