@@ -21,6 +21,7 @@ Visual Studio Code was used to create HTML and CSS.
 * https://drive.google.com/file/d/1nfHLuasTlLAA2VaZCK0iJfbJIm5VCCJ6/view?usp=sharing 
 
 #### Wireframes
+![alt](img/wireframes.png)
 * https://xd.adobe.com/view/82c0de62-3e6f-4f1c-a596-738c41938ba5-d793/?fullscreen 
 
 #### Fonts
