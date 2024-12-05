@@ -166,6 +166,7 @@ nav #tickets:hover {
     font-size: 1.25em;
     font-weight: 600;
     text-transform: uppercase;
+    text-align: right;
     color: #D9BAD7;
 
     padding-left: 12%;
@@ -259,6 +260,7 @@ nav #tickets:hover {
     font-size: 1.25em;
     font-weight: 600;
     text-transform: uppercase;
+    text-align: right;
     color: #F04241;
     padding-right: 12%;
 }
@@ -353,6 +355,7 @@ nav #tickets:hover {
     font-size: 1.25em;
     font-weight: 600;
     text-transform: uppercase;
+    text-align: right;
     color: #9E005E;
 
     padding-left: 12%;
