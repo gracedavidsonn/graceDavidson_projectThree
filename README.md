@@ -61,3 +61,6 @@ Wristband:
 
 CSS Box shadow:
 * https://www.w3schools.com/cssref/css3_pr_box-shadow.php
+
+CSS Object Fit:
+* https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit 

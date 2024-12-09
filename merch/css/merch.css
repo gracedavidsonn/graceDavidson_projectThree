@@ -1,4 +1,4 @@
-/* UNIVERSAL STYLING */
+/*-------------------- UNIVERSAL STYLING --------------------*/
 
 * {
     margin: 0;
@@ -14,7 +14,7 @@ body {
     position: relative;
 }
 
-/* HEADER STYLING */
+/*-------------------- HEADER STYLING --------------------*/
 
 header {
     display:flex;
@@ -47,6 +47,7 @@ nav a {
     color: #9E005E;
     padding: 2%;
     margin-right: 2%;
+    transition-duration: 200ms;
 }
 
 nav a:hover {
@@ -63,7 +64,7 @@ nav #tickets:hover {
     background-color: #F04241;
 }
 
-/* HEADING STYLING */
+/*-------------------- HEADING STYLING --------------------*/
 
 #heading {
     padding: 2% 5% 0% 5%;
@@ -79,7 +80,7 @@ nav #tickets:hover {
     color:#412645;
 }
 
-/* MERCH GRID STYLING */
+/*-------------------- MERCH GRID STYLING --------------------*/
 
 #merchGrid {
     display: flex;
@@ -88,10 +89,9 @@ nav #tickets:hover {
     justify-content: center;
     padding: 5% 5% 5% 0%;
     width: 100%;
-
 }
 
-/* MERCH ITEM STYLING */
+/*-------------------- MERCH ITEM STYLING --------------------*/
 
 .merchItem {
     display: flex;
@@ -99,12 +99,12 @@ nav #tickets:hover {
     flex-wrap: wrap;
     width: 30%;
     padding-right: 4%;
-
 }
 
 .merchItem img {
     width: 100%;
     box-shadow: 10px 10px #412645;
+    transition-duration: 200ms;
 }
 
 .merchItem img:hover {
@@ -117,7 +117,6 @@ nav #tickets:hover {
     font-weight: 600;
     text-transform: uppercase;
     color: #412645;
-
     padding-top: 8%;
 }
 
@@ -126,6 +125,26 @@ nav #tickets:hover {
     font-size: 1em;
     font-weight: 300;
     color: #412645;
-
     padding-top: 2%;
+}
+
+/*-------------------- FOOTER STYLING --------------------*/
+
+#footerLinks {
+    background-color: #412645;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+}
+
+#footerLinks a {
+    align-self: center;
+    width: 13%;
+}
+
+#footerLinks a img {
+    padding: 15%;
+    width: 100%;
 }

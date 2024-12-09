@@ -1,4 +1,4 @@
-/* UNIVERSAL STYLING */
+/*-------------------- UNIVERSAL STYLING --------------------*/
 
 * {
     margin: 0;
@@ -15,7 +15,7 @@ body {
     position: relative;
 }
 
-/* HEADER STYLING */
+/*-------------------- HEADER STYLING --------------------*/
 
 header {
     display:flex;
@@ -48,6 +48,7 @@ nav a {
     color: #D9BAD7;
     padding: 2%;
     margin-right: 2%;
+    transition-duration: 200ms;
 }
 
 nav a:hover {
@@ -66,7 +67,7 @@ nav #tickets:hover {
     color: #F04241;
 }
 
-/* LANDING PAGE */
+/*-------------------- LANDING PAGE --------------------*/
 
 #landingPage {
     display: flex;
@@ -141,14 +142,14 @@ nav #tickets:hover {
     font-size: 1em;
     line-height: 1.5em;
     font-weight: 300;
-    text-align: justify;
+    text-align: center;
     color: #412645;
     background-color: #F2F5F0;
     box-shadow: 10px 10px #F04241;
     padding: 3%;
 }
 
-/* ORGANIZATIONS */
+/*-------------------- ORGANIZATIONS --------------------*/
 
 #organizations {
     background-color: #F2F5F0;
@@ -189,6 +190,7 @@ nav #tickets:hover {
     margin-left: 2%;
     background-color: #F04241;
     box-shadow: 10px 10px #412645;
+    transition-duration: 200ms;
 }
 
 #orgLogos a:hover {
@@ -217,50 +219,28 @@ nav #tickets:hover {
     display: flex;
     width: 33.33%;
     text-decoration: none;
+    position: relative;
 }
 
 #pageLinks a img {
     width: 100%;
     z-index: 99;
+    transition-duration: 200ms;
 }
 
 #pageLinks a img:hover {
     opacity: 0;
 }
 
-#events {
-    background-color: #D9BAD7;
-}
-
-#events h2 {
-    left: 19%;
-}
-
-#tickets {
-    background-color: #F04241;
-}
-
-#tickets h2 {
-    left: 51%;
-}
-
-#merch {
-    background-color: #9e005e;
-}
-
-#merch h2 {
-    left: 87%;
-}
-
 #pageLinks a h2 {
     display: flex;
     align-self: flex-end;
-    padding-bottom: 1%;
     z-index: 100;
     position: absolute;
+    right: 5%;
+    padding-bottom: 3%;
 
-
-    font-size: 4em;
+    font-size: 4.5em;
     line-height: 0.95em;
     font-weight: 900;
     font-family: 'Londrina Solid', Arial, Helvetica, sans-serif;
@@ -268,5 +248,111 @@ nav #tickets:hover {
     text-align: right;
     text-decoration: none;
     color:#F2F5F0;
+}
+
+#events {
+    background-color: #D9BAD7;
+}
+
+#tickets {
+    background-color: #F04241;
+}
+
+#merch {
+    background-color: #9e005e;
+}
+
+/*-------------------- FOOTER STYLING --------------------*/
+
+#footerLinks {
+    background-color: #412645;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+}
+
+#footerLinks a {
+    align-self: center;
+    width: 13%;
+}
+
+#footerLinks a img {
+    padding: 15%;
+    width: 100%;
+}
+
+/*-------------------- MEDIA QUERIES --------------------*/
+
+@media screen and (max-width:600px){
+    * {
+        font-size: 90%;
+    }
+    #landingPage {
+        flex-direction: column;
+    }
+    #landingPageImageOne {
+        display: none;
+    }
+    #landingPageImageTwo {
+        align-self: center;
+        width: 90%;
+        padding-top: 5%;
+    }
+    #landingPageText {
+        align-self: center;
+        width: 100%;
+        font-size: 100%;
+    }
+    #about {
+        width: 100%;
+        padding: 2% 10% 10% 10%;
+    }
+    #about p {
+        font-size: 1.25em;
+    }
+    #organizations {
+        align-content: center;
+    }
+    #orgLogos {
+        flex-direction: column;
+        align-self: center;
+        width: 70%;
+    }
+    #orgLogos a {
+        width: 100%;
+        align-self: center;
+        padding: 6% 14% 6% 14%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    #pageLinks {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    #pageLinks a {
+        width: 100%;
+        align-content: center;
+    }
+    #pageLinks a img {
+        width: 100%;
+        height: 20em;
+        object-fit: cover;
+    }
+    #pageLinks a h2 {
+        font-size: 8em;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        right: 0;
+        left: 0;
+    }
+
+    #footerLinks a {
+        width: 25%;
+    }
 }
 

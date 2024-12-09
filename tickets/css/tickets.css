@@ -1,4 +1,4 @@
-/* UNIVERSAL STYLING */
+/*-------------------- UNIVERSAL STYLING --------------------*/
 
 * {
     margin: 0;
@@ -10,7 +10,7 @@ body {
     background-color: #F2F5F0;
 }
 
-/* HEADER STYLING */
+/*-------------------- HEADER STYLING --------------------*/
 
 header {
     display:flex;
@@ -43,11 +43,13 @@ nav a {
     color: #9E005E;
     padding: 2%;
     margin-right: 2%;
+    transition-duration: 200ms;
 }
 
 nav a:hover {
     color: #F04241
 }
+
 nav #tickets {
     display: flex;
     flex-wrap: nowrap;
@@ -59,7 +61,7 @@ nav #tickets:hover {
     background-color: #F04241;
 }
 
-/* HEADING STYLING */
+/*-------------------- HEADING STYLING --------------------*/
 
 #heading {
     padding: 2% 5% 0% 5%;
@@ -75,7 +77,7 @@ nav #tickets:hover {
     color:#412645;
 }
 
-/* TICKET GRID STYLING */
+/*-------------------- TICKET GRID STYLING --------------------*/
 
 #ticketGrid {
     display: flex;
@@ -84,10 +86,9 @@ nav #tickets:hover {
     justify-content: center;
     padding: 5% 5% 5% 0%;
     width: 100%;
-
 }
 
-/* TICKET ITEM STYLING */
+/*-------------------- TICKET ITEM STYLING --------------------*/
 
 .ticketItem {
     display: flex;
@@ -95,7 +96,6 @@ nav #tickets:hover {
     flex-wrap: wrap;
     width: 30%;
     padding-right: 4%;
-
 }
 
 .ticketItem img {
@@ -105,6 +105,7 @@ nav #tickets:hover {
 
 .ticketItem img:hover {
     box-shadow: 10px 10px #F04241;
+    transition-duration: 200ms;
 }
 
 .ticketItem h2 {
@@ -113,7 +114,6 @@ nav #tickets:hover {
     font-weight: 600;
     text-transform: uppercase;
     color: #412645;
-
     padding-top: 8%;
 }
 
@@ -122,7 +122,27 @@ nav #tickets:hover {
     font-size: 1em;
     font-weight: 300;
     color: #412645;
-
     padding-top: 2%;
     padding-bottom: 15%;
+}
+
+/*-------------------- FOOTER STYLING --------------------*/
+
+#footerLinks {
+    background-color: #412645;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+}
+
+#footerLinks a {
+    align-self: center;
+    width: 13%;
+}
+
+#footerLinks a img {
+    padding: 15%;
+    width: 100%;
 }

@@ -1,4 +1,4 @@
-/* UNIVERSAL STYLING */
+/*-------------------- UNIVERSAL STYLING --------------------*/
 
 * {
     margin: 0;
@@ -14,7 +14,7 @@ body {
     position: relative;
 }
 
-/* HEADER STYLING */
+/*-------------------- HEADER STYLING --------------------*/
 
 header {
     display:flex;
@@ -47,11 +47,13 @@ nav a {
     color: #9E005E;
     padding: 2%;
     margin-right: 2%;
+    transition-duration: 200ms;
 }
 
 nav a:hover {
     color: #F04241
 }
+
 nav #tickets {
     display: flex;
     flex-wrap: nowrap;
@@ -63,7 +65,7 @@ nav #tickets:hover {
     background-color: #F04241;
 }
 
-/* HEADING STYLING */
+/*-------------------- HEADING STYLING --------------------*/
 
 #heading {
     padding: 2% 5% 5% 5%;
@@ -89,7 +91,7 @@ nav #tickets:hover {
     color: #412645;
 }
 
-/* EVENT SCHEDULE STYLING */
+/*-------------------- EVENT SCHEDULE STYLING --------------------*/
 
 #schedule {
     display: flex;
@@ -97,7 +99,7 @@ nav #tickets:hover {
     width: 100%;
 }
 
-/* FRIDAY */
+/*-------------------- FRIDAY --------------------*/
 
 #friday {
     display: flex;
@@ -110,15 +112,14 @@ nav #tickets:hover {
 #fridayText {
     display: flex;
     flex-direction: column;
-    width: 60%;
-
+    width: 58%;
     padding-right: 3%;
-
 }
 
 #fridayPhoto {
-    width: 40%;
+    width: 42%;
     align-self: flex-end;
+    padding-top: 5%;
 }
 
 #fridayPhoto img {
@@ -145,7 +146,6 @@ nav #tickets:hover {
     line-height: 1.5em;
     text-align: left;
     color: #F2F5F0;
-
     padding-top: 3%;
     padding-left: 12%;
 }
@@ -156,7 +156,6 @@ nav #tickets:hover {
     font-weight: 600;
     text-transform: uppercase;
     color: #F2F5F0;
-
     padding-bottom: 2%;
     padding-left: 12%;
 }
@@ -166,9 +165,8 @@ nav #tickets:hover {
     font-size: 1.25em;
     font-weight: 600;
     text-transform: uppercase;
-    text-align: right;
-    color: #D9BAD7;
-
+    text-align: left;
+    color: #9E005E;
     padding-left: 12%;
 }
 
@@ -179,8 +177,6 @@ nav #tickets:hover {
     line-height: 1.5em;
     color: #F2F5F0;
     text-align: justify;
-
-
     padding-left: 13%;
 }
 
@@ -189,7 +185,7 @@ nav #tickets:hover {
     flex-direction: row;
 }
 
-/* SATURDAY */
+/*-------------------- SATURDAY --------------------*/
 
 #saturday {
     display: flex;
@@ -202,19 +198,18 @@ nav #tickets:hover {
 #saturdayText {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 58%;
 }
 
 #saturdayPhoto {
     display: flex;
     align-self: flex-end;
-    width: 40%;
+    width: 42%;
     padding: 5% 5% 0% 5%;
 }
 
 #saturdayPhoto img {
     width: 100%;
-
 }
 
 #saturday h1 {
@@ -228,7 +223,6 @@ nav #tickets:hover {
     background-color: #F04241;
     padding: 1.5%;
     width: 290px;
-
     align-self: flex-end;
 }
 
@@ -239,7 +233,6 @@ nav #tickets:hover {
     line-height: 1.5em;
     text-align: left;
     color: #F2F5F0;
-
     padding-top: 3%;
 
 }
@@ -250,7 +243,6 @@ nav #tickets:hover {
     font-weight: 600;
     text-transform: uppercase;
     color: #F2F5F0;
-
     padding-bottom: 2%;
     padding-right: 12%;
 }
@@ -260,7 +252,7 @@ nav #tickets:hover {
     font-size: 1.25em;
     font-weight: 600;
     text-transform: uppercase;
-    text-align: right;
+    text-align: left;
     color: #F04241;
     padding-right: 12%;
 }
@@ -272,7 +264,6 @@ nav #tickets:hover {
     line-height: 1.5em;
     color: #F2F5F0;
     text-align: justify;
-
     padding-right: 12%;
 }
 
@@ -286,7 +277,7 @@ nav #tickets:hover {
     color: #F04241;
 }
 
-/* SUNDAY */
+/*-------------------- SUNDAY --------------------*/
 
 #sunday {
     display: flex;
@@ -299,14 +290,12 @@ nav #tickets:hover {
 #sundayText {
     display: flex;
     flex-direction: column;
-    width: 60%;
-
+    width: 58%;
     padding-right: 3%;
-
 }
 
 #sundayPhoto {
-    width: 40%;
+    width: 42%;
     align-self: flex-end;
 }
 
@@ -334,7 +323,6 @@ nav #tickets:hover {
     line-height: 1.5em;
     text-align: left;
     color: #412645;
-
     padding-top: 3%;
     padding-left: 12%;
 }
@@ -345,7 +333,6 @@ nav #tickets:hover {
     font-weight: 600;
     text-transform: uppercase;
     color: #412645;
-
     padding-bottom: 2%;
     padding-left: 12%;
 }
@@ -355,9 +342,9 @@ nav #tickets:hover {
     font-size: 1.25em;
     font-weight: 600;
     text-transform: uppercase;
-    text-align: right;
+    text-align: left;
     color: #9E005E;
-
+    padding-right: 12%;
     padding-left: 12%;
 }
 
@@ -368,7 +355,35 @@ nav #tickets:hover {
     line-height: 1.5em;
     color: #412645;
     text-align: justify;
+}
 
+#sunday a {
+    color: #412645;
+    text-decoration: none;
+    font-weight: 400;
+}
 
-    padding-left: 13%;
+#sunday a:hover {
+    color: #F2F5F0;
+}
+
+/*-------------------- FOOTER STYLING --------------------*/
+
+#footerLinks {
+    background-color: #412645;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+}
+
+#footerLinks a {
+    align-self: center;
+    width: 13%;
+}
+
+#footerLinks a img {
+    padding: 15%;
+    width: 100%;
 }
