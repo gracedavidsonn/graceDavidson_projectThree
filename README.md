@@ -64,3 +64,6 @@ CSS Box shadow:
 
 CSS Object Fit:
 * https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit 
+
+README.md Syntax:
+* https://github.com/darsaveli/Readme-Markdown-Syntax
