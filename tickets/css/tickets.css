@@ -8,6 +8,10 @@
 
 body {
     background-color: #F2F5F0;
+
+    min-height: 100dvh;
+    max-width: 100%;
+    position: relative;
 }
 
 /*-------------------- HEADER STYLING --------------------*/
